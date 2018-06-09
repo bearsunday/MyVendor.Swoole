@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e37666930e25aaf6d27358fe577a2b2e",
+    "content-hash": "0900f031c0673c3f2d8d030702dd29de",
     "packages": [
         {
             "name": "aura/cli",
@@ -1921,6 +1921,31 @@
                 "instantiate"
             ],
             "time": "2017-07-22T11:58:36+00:00"
+        },
+        {
+            "name": "eaglewu/swoole-ide-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eaglewu/swoole-ide-helper.git",
+                "reference": "118f1d44e9ef3877ab22b5df57a84f1dfaa0b30b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eaglewu/swoole-ide-helper/zipball/118f1d44e9ef3877ab22b5df57a84f1dfaa0b30b",
+                "reference": "118f1d44e9ef3877ab22b5df57a84f1dfaa0b30b",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "eagle",
+                    "email": "eaglewudi@gmail.com"
+                }
+            ],
+            "description": "Swoole 在IDE下自动识别类、函数、宏，自动补全函数名",
+            "time": "2018-05-16T13:12:21+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",
@@ -4541,7 +4566,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "roave/security-advisories": 20
+        "roave/security-advisories": 20,
+        "eaglewu/swoole-ide-helper": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

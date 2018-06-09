@@ -5,12 +5,14 @@
     "description": "",
     "require": {
         "php": ">=7.0.0",
+        "ext-swoole": ">=2.2.0",
         "roave/security-advisories": "dev-master",
         "bear/package": "^1.7.6",
         "josegonzalez/dotenv": "^3.2"
     },
     "require-dev": {
-        "bear/qatools": "^1.5"
+        "bear/qatools": "^1.5",
+        "eaglewu/swoole-ide-helper": "dev-master"
     },
     "autoload": {
         "psr-4": {
